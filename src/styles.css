@@ -130,7 +130,7 @@ h2 {
 }
 
 .content {
-  text-align: center;
+  text-align: left;
   padding: 0;
 }
 
@@ -166,4 +166,13 @@ h2 {
 
 .content img {
   border-radius: 20px;
+}
+
+.content a {
+  text-decoration: none;
+  color: black;
+}
+
+.content a:hover {
+  color: #6c63ff;
 }
