@@ -106,6 +106,7 @@ h2 {
 
 .about-section {
   padding: 160px 20px;
+  color: white;
 }
 
 .about-section-content {
@@ -122,4 +123,47 @@ h2 {
 
 .about-section img {
   border-radius: 10px;
+}
+
+.content-container {
+  padding: 160px 20px;
+}
+
+.content {
+  text-align: center;
+  padding: 0;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 85px;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  text-align: left;
+}
+
+.content h2 {
+  font-size: 64px;
+  font-family: var(--defaul-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 36px;
+  margin: 20px 0 0;
+  font-family: var(--defaul-font-family);
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 14px;
+  color: rgba(39, 33, 66, 0.7);
+}
+
+.content {
+  margin: 30px;
+}
+
+.content img {
+  border-radius: 20px;
 }
